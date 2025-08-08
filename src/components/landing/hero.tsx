@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { GITHUB_REPO_URL } from "@/constants";
+import { GITHUB_REPO_URL, SITE_NAME } from "@/constants";
 import Link from "next/link";
 import ShinyButton from "@/components/ui/shiny-button";
 import { getTotalUsers } from "@/utils/stats";
@@ -8,41 +8,52 @@ import { Skeleton } from "@/components/ui/skeleton";
 
 export function Hero() {
   return (
-    <div className="relative isolate pt-14 dark:bg-gray-900">
-      <div className="pt-20 pb-24 sm:pt-20 sm:pb-32 lg:pb-40">
-        <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl text-center">
-            <div className="mb-10 flex justify-center gap-4 flex-wrap">
-              <ShinyButton className="rounded-full bg-indigo-500/10 text-indigo-600 dark:text-indigo-400 ring-1 ring-inset ring-indigo-500/20">
-                100% Free & Open Source
-              </ShinyButton>
-              <Suspense fallback={<TotalUsersButtonSkeleton />}>
-                <TotalUsersButton />
-              </Suspense>
-            </div>
-            <h1 className="text-4xl font-bold tracking-tight sm:text-6xl bg-gradient-to-r from-indigo-500 to-purple-500 bg-clip-text text-transparent">
-              Production-Ready SaaS Template
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-muted-foreground">
-              A modern, open-source template for building SaaS applications with Next.js 15,
-              Cloudflare Workers, and everything you need to launch quickly.
-            </p>
-            <div className="mt-10 flex items-center justify-center gap-x-4 md:gap-x-6">
-              <a href={GITHUB_REPO_URL} target="_blank">
-                <Button size="lg" className="rounded-full">
-                  View on GitHub
-                </Button>
-              </a>
-              <Link href="/sign-in">
-                <Button variant="outline" size="lg" className="rounded-full">
-                  Try Demo
-                </Button>
-              </Link>
-            </div>
+    <section className="relative isolate overflow-hidden pt-20 md:pt-28">
+      {/* Gradient background */}
+      <div className="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(60rem_60rem_at_50%_-10%,hsl(var(--primary)/.15),transparent_60%)]" />
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl text-center">
+          <ShinyButton className="mx-auto mb-6 rounded-full bg-primary/10 text-primary ring-1 ring-inset ring-primary/20">
+            Meet {SITE_NAME} — Your AI Call Agent
+          </ShinyButton>
+          <h1 className="text-4xl font-bold tracking-tight md:text-6xl">
+            Handle calls automatically with human‑like intelligence
+          </h1>
+          <p className="mt-6 text-lg leading-8 text-muted-foreground">
+            {SITE_NAME} answers, routes, books appointments, and captures leads 24/7. Natural
+            voice, real‑time reasoning, and CRM sync out of the box.
+          </p>
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <Link href="/sign-up">
+              <Button size="lg" className="rounded-full px-6">Start free</Button>
+            </Link>
+            <Link href="/sign-in">
+              <Button variant="outline" size="lg" className="rounded-full px-6">Live demo</Button>
+            </Link>
+            <a href={GITHUB_REPO_URL} target="_blank" className="inline-flex">
+              <Button variant="ghost" size="lg" className="rounded-full px-6">Star on GitHub</Button>
+            </a>
+          </div>
+          <div className="mt-8 flex justify-center">
+            <Suspense fallback={<TotalUsersButtonSkeleton />}>
+              <TotalUsersButton />
+            </Suspense>
+          </div>
+        </div>
+
+        {/* Feature highlight cards */}
+        <div className="mx-auto mt-16 grid max-w-5xl grid-cols-1 gap-4 sm:grid-cols-2">
+          <div className="rounded-xl border bg-card/60 p-5 backdrop-blur">
+            <p className="text-sm font-medium text-muted-foreground">Voice quality</p>
+            <p className="mt-1 text-xl font-semibold">Natural, low‑latency speech</p>
+          </div>
+          <div className="rounded-xl border bg-card/60 p-5 backdrop-blur">
+            <p className="text-sm font-medium text-muted-foreground">Integrations</p>
+            <p className="mt-1 text-xl font-semibold">Calendars, CRMs, webhooks</p>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
@@ -53,8 +64,8 @@ async function TotalUsersButton() {
   if (!totalUsers) return null;
 
   return (
-    <ShinyButton className="rounded-full bg-purple-500/10 text-purple-600 dark:text-purple-400 ring-1 ring-inset ring-purple-500/20">
-      {totalUsers} Users & Growing
+    <ShinyButton className="rounded-full bg-primary/10 text-primary ring-1 ring-inset ring-primary/20">
+      {totalUsers}+ teams trust {SITE_NAME}
     </ShinyButton>
   );
 }
@@ -62,8 +73,8 @@ async function TotalUsersButton() {
 // Skeleton fallback for the TotalUsersButton
 function TotalUsersButtonSkeleton() {
   return (
-    <div className="rounded-full bg-purple-500/10 ring-1 ring-inset ring-purple-500/20 px-4 py-1.5 text-sm font-medium">
-      <Skeleton className="w-32 h-5" />
+    <div className="rounded-full bg-primary/10 ring-1 ring-inset ring-primary/20 px-4 py-1.5 text-sm font-medium">
+      <Skeleton className="w-40 h-5" />
     </div>
   );
 }

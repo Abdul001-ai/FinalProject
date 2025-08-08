@@ -1,62 +1,63 @@
 import {
-  CloudIcon,
-  BoltIcon,
+  PhoneArrowDownLeftIcon as CallIcon,
+  ArrowPathRoundedSquareIcon as AutomateIcon,
   ShieldCheckIcon,
   RocketLaunchIcon,
   EnvelopeIcon,
   CommandLineIcon,
-  SunIcon,
-  UserGroupIcon,
+  CpuChipIcon as RealtimeIcon,
+  GlobeAltIcon as GlobeIcon,
 } from "@heroicons/react/24/outline";
+import { SITE_NAME } from "@/constants";
 
 const features = [
   {
-    name: "Authentication Ready",
+    name: "Answer & route calls",
     description:
-      "Complete authentication system with email/password sign in, sign up, forgot password flow, and session management using Lucia Auth.",
-    icon: ShieldCheckIcon,
+      `${SITE_NAME} greets callers, qualifies leads, and routes to the right destination or books meetings automatically.`,
+    icon: CallIcon,
   },
   {
-    name: "Database & Email",
+    name: "Real‑time reasoning",
     description:
-      "Drizzle ORM with Cloudflare D1 for the database, and React Email with Resend for beautiful email templates.",
+      "Understands context, follows instructions, and adapts mid‑conversation with low‑latency voice.",
+    icon: RealtimeIcon,
+  },
+  {
+    name: "CRM & calendar sync",
+    description:
+      "Native hooks for CRMs, calendars, and webhooks so every call updates your systems instantly.",
     icon: EnvelopeIcon,
   },
   {
-    name: "Modern Stack",
+    name: "Automations",
     description:
-      "Next.js 15 App Router with React Server Components, Server Actions, and Edge Runtime for optimal performance.",
-    icon: BoltIcon,
+      "Trigger workflows, send follow‑ups, and collect payments — no manual work required.",
+    icon: AutomateIcon,
   },
   {
-    name: "Beautiful UI",
+    name: "Security & compliance",
     description:
-      "Polished UI with Tailwind CSS, Shadcn UI components, dark/light mode, and responsive design out of the box.",
-    icon: SunIcon,
+      "Role‑based access, audit logs, and data retention controls built in.",
+    icon: ShieldCheckIcon,
   },
   {
-    name: "Edge Deployment",
+    name: "Global scale",
     description:
-      "Deploy globally with Cloudflare Workers for zero cold starts and leverage Cloudflare's edge network for blazing-fast performance.",
-    icon: CloudIcon,
+      "Deployed at the edge for high availability and snappy response worldwide.",
+    icon: GlobeIcon,
   },
   {
-    name: "Developer Experience",
+    name: "Developer‑first",
     description:
-      "GitHub Actions for deployment, comprehensive documentation, and TypeScript for type safety.",
+      "Type‑safe APIs, webhooks, and excellent docs. Ship faster with confidence.",
     icon: CommandLineIcon,
   },
   {
-    name: "Form Handling",
+    name: "Launch in minutes",
     description:
-      "Built-in form validation with Zod and React Hook Form for a smooth user experience.",
+      "Plug in your number, connect your stack, and go live — onboarding that just works.",
     icon: RocketLaunchIcon,
-  },
-  {
-    name: "Team Ready",
-    description:
-      "Built with collaboration in mind. Easy to customize and extend with your team's requirements.",
-    icon: UserGroupIcon,
   },
 ];
 
@@ -65,15 +66,15 @@ export function Features() {
     <div className="py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400">
-            Production Ready
+          <h2 className="text-base font-semibold leading-7 text-primary">
+            Why teams choose {SITE_NAME}
           </h2>
           <p className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-            Everything you need to build a SaaS
+            Handle more calls. Close more deals.
           </p>
           <p className="mt-6 text-lg leading-8 text-muted-foreground">
-            Start with a complete foundation. All the essential features are built-in,
-            so you can focus on what makes your SaaS unique.
+            Replace missed calls with delightful conversations. Automate the busywork while
+            keeping humans in control.
           </p>
         </div>
         <div className="mx-auto mt-16 max-w-2xl sm:mt-20 lg:mt-24 lg:max-w-none">

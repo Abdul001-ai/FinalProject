@@ -57,13 +57,20 @@ export function Navigation() {
   }
 
   return (
-    <nav className="dark:bg-muted/30 bg-muted/60 shadow dark:shadow-xl z-10">
+    <nav className="sticky top-0 z-50 bg-background/70 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b">
+      {/* subtle colorful bottom border */}
+      <div className="h-[2px] w-full bg-gradient-to-r from-primary/40 via-transparent to-primary/40" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/" className="text-xl md:text-2xl font-bold text-primary flex items-center gap-2 md:gap-3">
-              <ComponentIcon className="w-6 h-6 md:w-7 md:h-7" />
-              {SITE_NAME}
+            <Link href="/" className="group text-xl md:text-2xl font-bold flex items-center gap-2 md:gap-3">
+              <span className="relative grid place-items-center overflow-hidden rounded-lg border bg-card/60 p-1.5 shadow-sm">
+                <span className="absolute inset-0 -z-10 bg-[conic-gradient(from_180deg_at_50%_50%,hsl(var(--primary)/.2),transparent_30%,hsl(var(--primary)/.2))] opacity-70 transition-opacity group-hover:opacity-100" />
+                <ComponentIcon className="w-6 h-6 md:w-7 md:h-7 text-primary" />
+              </span>
+              <span className="bg-clip-text text-transparent bg-[linear-gradient(90deg,hsl(var(--primary))_0%,hsl(var(--foreground))_60%)]">
+                {SITE_NAME}
+              </span>
             </Link>
           </div>
           <div className="hidden md:flex md:items-center md:space-x-6">
@@ -81,7 +88,7 @@ export function Navigation() {
                     href={item.href}
                     className={cn(
                       "text-muted-foreground hover:text-foreground no-underline px-3 h-16 flex items-center text-sm font-medium transition-colors relative",
-                      isActiveLink(item.href) && "text-foreground after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-foreground"
+                      isActiveLink(item.href) && "text-foreground after:absolute after:left-0 after:bottom-0 after:h-0.5 after:w-full after:bg-gradient-to-r after:from-primary after:to-transparent"
                     )}
                   >
                     {item.name}
@@ -89,7 +96,12 @@ export function Navigation() {
                 ))
               )}
             </div>
-            <ActionButtons />
+            {/* Desktop CTA */}
+            {session ? null : (
+              <Button asChild className="rounded-full bg-gradient-to-r from-primary to-[hsl(280,70%,55%)] text-white shadow-md">
+                <Link href="/sign-up">Get started</Link>
+              </Button>
+            )}
           </div>
           <div className="md:hidden flex items-center">
             <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -124,7 +136,11 @@ export function Navigation() {
                           </Link>
                         ))}
                         <div className="px-3 pt-4">
-                          <ActionButtons />
+                          {session ? null : (
+                            <Button asChild className="w-full rounded-full bg-gradient-to-r from-primary to-[hsl(280,70%,55%)] text-white">
+                              <Link href="/sign-up">Get started</Link>
+                            </Button>
+                          )}
                         </div>
                       </>
                     )}

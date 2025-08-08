@@ -95,6 +95,54 @@
   }
 }
 
+/* Accent themes */
+@layer base {
+  :root[data-accent=blue] {
+    --primary: 221 83% 53%; /* blue-600 */
+    --primary-foreground: 0 0% 100%;
+    --ring: 221 83% 53%;
+    --link: 221 83% 53%;
+  }
+  .dark[data-accent=blue] {
+    --primary: 221 83% 60%;
+    --ring: 221 83% 60%;
+    --link: 221 83% 60%;
+  }
+  :root[data-accent=green] {
+    --primary: 142 72% 29%; /* green-700 */
+    --primary-foreground: 0 0% 100%;
+    --ring: 142 72% 29%;
+    --link: 142 72% 29%;
+  }
+  .dark[data-accent=green] {
+    --primary: 142 69% 58%;
+    --ring: 142 69% 58%;
+    --link: 142 69% 58%;
+  }
+  :root[data-accent=amber] {
+    --primary: 38 92% 50%; /* amber-500 */
+    --primary-foreground: 24 10% 10%;
+    --ring: 38 92% 50%;
+    --link: 38 92% 50%;
+  }
+  .dark[data-accent=amber] {
+    --primary: 38 92% 60%;
+    --ring: 38 92% 60%;
+    --link: 38 92% 60%;
+  }
+  :root[data-accent=mono] {
+    --primary: 240 5.9% 10%;
+    --primary-foreground: 0 0% 98%;
+    --ring: 240 5.9% 10%;
+    --link: 240 5.9% 10%;
+  }
+  .dark[data-accent=mono] {
+    --primary: 0 0% 98%;
+    --ring: 0 0% 98%;
+    --link: 0 0% 98%;
+  }
+}
+
 @layer base {
   * {
     @apply border-border;
@@ -102,4 +150,11 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+/* Smooth sliding color transition when switching accent */
+.accent-transition, .accent-transition * {
+  transition-property: color, background-color, border-color, fill, stroke, outline-color, box-shadow, text-decoration-color;
+  transition-duration: 300ms;
+  transition-timing-function: ease;
 }
