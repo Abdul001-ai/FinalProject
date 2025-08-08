@@ -1,0 +1,25 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+exports.id = "vendor-chunks/@heroui+use-measure@2.1.7_react@19.1.0";
+exports.ids = ["vendor-chunks/@heroui+use-measure@2.1.7_react@19.1.0"];
+exports.modules = {
+
+/***/ "(ssr)/./node_modules/.pnpm/@heroui+use-measure@2.1.7_react@19.1.0/node_modules/@heroui/use-measure/dist/index.mjs":
+/*!*******************************************************************************************************************!*\
+  !*** ./node_modules/.pnpm/@heroui+use-measure@2.1.7_react@19.1.0/node_modules/@heroui/use-measure/dist/index.mjs ***!
+  \*******************************************************************************************************************/
+/***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   useMeasure: () => (/* binding */ useMeasure)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/server/route-modules/app-page/vendored/ssr/react.js\");\n// src/index.ts\n\nfunction useMeasure() {\n  const [dimensions, setDimensions] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({\n    width: null,\n    height: null\n  });\n  const previousObserver = (0,react__WEBPACK_IMPORTED_MODULE_0__.useRef)(null);\n  const customRef = (0,react__WEBPACK_IMPORTED_MODULE_0__.useCallback)((node) => {\n    if (previousObserver.current) {\n      previousObserver.current.disconnect();\n      previousObserver.current = null;\n    }\n    if ((node == null ? void 0 : node.nodeType) === Node.ELEMENT_NODE) {\n      const observer = new ResizeObserver(([entry]) => {\n        if (entry && entry.borderBoxSize) {\n          const { inlineSize: width, blockSize: height } = entry.borderBoxSize[0];\n          setDimensions({ width, height });\n        }\n      });\n      observer.observe(node);\n      previousObserver.current = observer;\n    }\n  }, []);\n  return [customRef, dimensions];\n}\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvLnBucG0vQGhlcm91aSt1c2UtbWVhc3VyZUAyLjEuN19yZWFjdEAxOS4xLjAvbm9kZV9tb2R1bGVzL0BoZXJvdWkvdXNlLW1lYXN1cmUvZGlzdC9pbmRleC5tanMiLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQTtBQUNzRDtBQUN0RDtBQUNBLHNDQUFzQywrQ0FBUTtBQUM5QztBQUNBO0FBQ0EsR0FBRztBQUNILDJCQUEyQiw2Q0FBTTtBQUNqQyxvQkFBb0Isa0RBQVc7QUFDL0I7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxrQkFBa0IsdUNBQXVDO0FBQ3pELDBCQUEwQixlQUFlO0FBQ3pDO0FBQ0EsT0FBTztBQUNQO0FBQ0E7QUFDQTtBQUNBLEdBQUc7QUFDSDtBQUNBO0FBR0UiLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQWRtaW5cXERlc2t0b3BcXG5ld1xcY2xvdWRmbGFyZS13b3JrZXJzLW5leHRqcy1zYWFzLXRlbXBsYXRlXFxub2RlX21vZHVsZXNcXC5wbnBtXFxAaGVyb3VpK3VzZS1tZWFzdXJlQDIuMS43X3JlYWN0QDE5LjEuMFxcbm9kZV9tb2R1bGVzXFxAaGVyb3VpXFx1c2UtbWVhc3VyZVxcZGlzdFxcaW5kZXgubWpzIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIHNyYy9pbmRleC50c1xuaW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZVJlZiwgdXNlU3RhdGUgfSBmcm9tIFwicmVhY3RcIjtcbmZ1bmN0aW9uIHVzZU1lYXN1cmUoKSB7XG4gIGNvbnN0IFtkaW1lbnNpb25zLCBzZXREaW1lbnNpb25zXSA9IHVzZVN0YXRlKHtcbiAgICB3aWR0aDogbnVsbCxcbiAgICBoZWlnaHQ6IG51bGxcbiAgfSk7XG4gIGNvbnN0IHByZXZpb3VzT2JzZXJ2ZXIgPSB1c2VSZWYobnVsbCk7XG4gIGNvbnN0IGN1c3RvbVJlZiA9IHVzZUNhbGxiYWNrKChub2RlKSA9PiB7XG4gICAgaWYgKHByZXZpb3VzT2JzZXJ2ZXIuY3VycmVudCkge1xuICAgICAgcHJldmlvdXNPYnNlcnZlci5jdXJyZW50LmRpc2Nvbm5lY3QoKTtcbiAgICAgIHByZXZpb3VzT2JzZXJ2ZXIuY3VycmVudCA9IG51bGw7XG4gICAgfVxuICAgIGlmICgobm9kZSA9PSBudWxsID8gdm9pZCAwIDogbm9kZS5ub2RlVHlwZSkgPT09IE5vZGUuRUxFTUVOVF9OT0RFKSB7XG4gICAgICBjb25zdCBvYnNlcnZlciA9IG5ldyBSZXNpemVPYnNlcnZlcigoW2VudHJ5XSkgPT4ge1xuICAgICAgICBpZiAoZW50cnkgJiYgZW50cnkuYm9yZGVyQm94U2l6ZSkge1xuICAgICAgICAgIGNvbnN0IHsgaW5saW5lU2l6ZTogd2lkdGgsIGJsb2NrU2l6ZTogaGVpZ2h0IH0gPSBlbnRyeS5ib3JkZXJCb3hTaXplWzBdO1xuICAgICAgICAgIHNldERpbWVuc2lvbnMoeyB3aWR0aCwgaGVpZ2h0IH0pO1xuICAgICAgICB9XG4gICAgICB9KTtcbiAgICAgIG9ic2VydmVyLm9ic2VydmUobm9kZSk7XG4gICAgICBwcmV2aW91c09ic2VydmVyLmN1cnJlbnQgPSBvYnNlcnZlcjtcbiAgICB9XG4gIH0sIFtdKTtcbiAgcmV0dXJuIFtjdXN0b21SZWYsIGRpbWVuc2lvbnNdO1xufVxuZXhwb3J0IHtcbiAgdXNlTWVhc3VyZVxufTtcbiJdLCJuYW1lcyI6W10sImlnbm9yZUxpc3QiOlswXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/.pnpm/@heroui+use-measure@2.1.7_react@19.1.0/node_modules/@heroui/use-measure/dist/index.mjs\n");
+
+/***/ })
+
+};
+;

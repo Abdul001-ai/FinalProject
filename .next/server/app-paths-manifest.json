@@ -1,0 +1,9 @@
+{
+  "/api/get-session/route": "app/api/get-session/route.js",
+  "/(marketing)/page": "app/(marketing)/page.js",
+  "/(dashboard)/dashboard/marketplace/page": "app/(dashboard)/dashboard/marketplace/page.js",
+  "/(dashboard)/dashboard/billing/page": "app/(dashboard)/dashboard/billing/page.js",
+  "/(settings)/settings/security/page": "app/(settings)/settings/security/page.js",
+  "/(dashboard)/dashboard/page": "app/(dashboard)/dashboard/page.js",
+  "/(settings)/settings/page": "app/(settings)/settings/page.js"
+}
