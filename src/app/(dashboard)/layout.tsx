@@ -6,8 +6,6 @@ import { Separator } from "@/components/ui/separator"
 import { Input } from "@/components/ui/input"
 import ThemeSwitch from "@/components/theme-switch"
 import AccentSwitch from "@/components/accent-switch"
-import { Bell } from "lucide-react"
-import { Button } from "@/components/ui/button"
 import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 
 export default async function DashboardLayout({ children }: { children: React.ReactNode }) {
@@ -36,9 +34,12 @@ export default async function DashboardLayout({ children }: { children: React.Re
               <div className="hidden md:block">
                 <Input placeholder="Search..." className="w-[260px]" />
               </div>
-              <Button variant="ghost" size="icon" aria-label="Notifications" className="hidden sm:inline-flex">
-                <Bell className="h-5 w-5" />
-              </Button>
+              <button aria-label="Notifications" className="hidden sm:inline-flex h-9 w-9 items-center justify-center rounded-md hover:bg-muted">
+                <svg className="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9" />
+                  <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                </svg>
+              </button>
               <ThemeSwitch />
               <AccentSwitch />
               <Avatar className="ml-1 h-8 w-8">

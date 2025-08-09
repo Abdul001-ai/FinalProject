@@ -21,6 +21,6 @@ export default function Home() {
       <Features />
       <Testimonials />
       <FAQ />
-    </main>
+    </main>   
   );
 }

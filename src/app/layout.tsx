@@ -6,7 +6,7 @@ import "server-only";
 import { ThemeProvider } from "@/components/providers";
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
-import NextTopLoader from 'nextjs-toploader'
+import { TopLoaderClient } from "@/components/top-loader-client";
 import { SITE_NAME, SITE_DESCRIPTION, SITE_URL } from "@/constants";
 import { AgenticDevStudioStickyBanner } from "@/components/startup-studio-sticky-banner";
 
@@ -21,6 +21,11 @@ export const metadata: Metadata = {
   },
   description: SITE_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
+  icons: {
+    icon: "/icon.svg",
+    shortcut: "/icon.svg",
+    apple: "/icon.svg",
+  },
   keywords: ["SaaS", "Next.js", "React", "TypeScript", "Cloudflare Workers", "Edge Computing"],
   authors: [{ name: "Lubomir Georgiev" }],
   creator: "Lubomir Georgiev",
@@ -59,11 +64,7 @@ export default function BaseLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <NextTopLoader
-          initialPosition={0.15}
-          shadow="0 0 10px #000, 0 0 5px #000"
-          height={4}
-        />
+        <TopLoaderClient />
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"

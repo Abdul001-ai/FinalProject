@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\new\cloudflare-workers-nextjs-saas-template\src\app\api\get-session\route.ts
+// File: C:\Users\Admin\Desktop\FinalProject\src\app\api\get-session\route.ts
 import * as entry from '../../../../../src/app/api/get-session/route.js'
 import type { NextRequest } from 'next/server.js'
 

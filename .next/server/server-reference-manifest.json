@@ -1,341 +1,38 @@
 {
   "node": {
-    "7f95aa39f02f587e927c2d3884c1134c301d0f7d6c": {
+    "7f0cc1e3e02b8200554de46d35380b6d9ce031262f": {
       "workers": {
         "app/(marketing)/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(settings)/settings/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csettings.actions.ts%22%2C%5B%7B%22id%22%3A%227ffba18c64628189375854ae7f72db92bfb5a25240%22%2C%22exportedName%22%3A%22updateUserProfileAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f0cc1e3e02b8200554de46d35380b6d9ce031262f%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
         "app/(dashboard)/dashboard/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/billing/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Ccredits.action.ts%22%2C%5B%7B%22id%22%3A%2240176c0fd5e10877fe9bc74c84da99e9be9220da69%22%2C%22exportedName%22%3A%22createPaymentIntent%22%7D%2C%7B%22id%22%3A%22405f612d3c1c64fc08f527af78e4445704d58da3cb%22%2C%22exportedName%22%3A%22getTransactions%22%7D%2C%7B%22id%22%3A%2240bcc06414b025151668a4bfae0eae427485b77128%22%2C%22exportedName%22%3A%22confirmPayment%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f0cc1e3e02b8200554de46d35380b6d9ce031262f%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227fcc3185d1c741ff0513f454c795b43c85b538e912%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         },
         "app/_not-found/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/marketplace/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(dashboard)%5C%5Cdashboard%5C%5Cmarketplace%5C%5Cpurchase.action.ts%22%2C%5B%7B%22id%22%3A%227fe451a836de0f5eb807af4e1eaaacced5b114c87e%22%2C%22exportedName%22%3A%22purchaseAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f0cc1e3e02b8200554de46d35380b6d9ce031262f%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
         "app/(marketing)/page": "action-browser",
-        "app/(settings)/settings/page": "action-browser",
         "app/(dashboard)/dashboard/page": "action-browser",
-        "app/(dashboard)/dashboard/billing/page": "action-browser",
-        "app/_not-found/page": "action-browser",
-        "app/(dashboard)/dashboard/teams/page": "action-browser",
-        "app/(dashboard)/dashboard/marketplace/page": "action-browser",
-        "app/(settings)/settings/security/page": "action-browser"
+        "app/_not-found/page": "action-browser"
       }
     },
-    "7f19add20fbc300a179eb91e272f8c9e4b4decd8e4": {
+    "7fcc3185d1c741ff0513f454c795b43c85b538e912": {
       "workers": {
-        "app/(settings)/settings/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csettings.actions.ts%22%2C%5B%7B%22id%22%3A%227ffba18c64628189375854ae7f72db92bfb5a25240%22%2C%22exportedName%22%3A%22updateUserProfileAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
         "app/(dashboard)/dashboard/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/billing/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Ccredits.action.ts%22%2C%5B%7B%22id%22%3A%2240176c0fd5e10877fe9bc74c84da99e9be9220da69%22%2C%22exportedName%22%3A%22createPaymentIntent%22%7D%2C%7B%22id%22%3A%22405f612d3c1c64fc08f527af78e4445704d58da3cb%22%2C%22exportedName%22%3A%22getTransactions%22%7D%2C%7B%22id%22%3A%2240bcc06414b025151668a4bfae0eae427485b77128%22%2C%22exportedName%22%3A%22confirmPayment%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(dashboard)/dashboard/marketplace/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(dashboard)%5C%5Cdashboard%5C%5Cmarketplace%5C%5Cpurchase.action.ts%22%2C%5B%7B%22id%22%3A%227fe451a836de0f5eb807af4e1eaaacced5b114c87e%22%2C%22exportedName%22%3A%22purchaseAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        },
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
+          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f0cc1e3e02b8200554de46d35380b6d9ce031262f%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5CFinalProject%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227fcc3185d1c741ff0513f454c795b43c85b538e912%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%5D&__client_imported__=true!",
           "async": false
         }
       },
       "layer": {
-        "app/(settings)/settings/page": "action-browser",
-        "app/(dashboard)/dashboard/page": "action-browser",
-        "app/(dashboard)/dashboard/billing/page": "action-browser",
-        "app/(dashboard)/dashboard/teams/page": "action-browser",
-        "app/(dashboard)/dashboard/marketplace/page": "action-browser",
-        "app/(settings)/settings/security/page": "action-browser"
-      }
-    },
-    "7ffba18c64628189375854ae7f72db92bfb5a25240": {
-      "workers": {
-        "app/(settings)/settings/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csettings.actions.ts%22%2C%5B%7B%22id%22%3A%227ffba18c64628189375854ae7f72db92bfb5a25240%22%2C%22exportedName%22%3A%22updateUserProfileAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/page": "action-browser"
-      }
-    },
-    "40176c0fd5e10877fe9bc74c84da99e9be9220da69": {
-      "workers": {
-        "app/(dashboard)/dashboard/billing/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Ccredits.action.ts%22%2C%5B%7B%22id%22%3A%2240176c0fd5e10877fe9bc74c84da99e9be9220da69%22%2C%22exportedName%22%3A%22createPaymentIntent%22%7D%2C%7B%22id%22%3A%22405f612d3c1c64fc08f527af78e4445704d58da3cb%22%2C%22exportedName%22%3A%22getTransactions%22%7D%2C%7B%22id%22%3A%2240bcc06414b025151668a4bfae0eae427485b77128%22%2C%22exportedName%22%3A%22confirmPayment%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/billing/page": "action-browser"
-      }
-    },
-    "405f612d3c1c64fc08f527af78e4445704d58da3cb": {
-      "workers": {
-        "app/(dashboard)/dashboard/billing/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Ccredits.action.ts%22%2C%5B%7B%22id%22%3A%2240176c0fd5e10877fe9bc74c84da99e9be9220da69%22%2C%22exportedName%22%3A%22createPaymentIntent%22%7D%2C%7B%22id%22%3A%22405f612d3c1c64fc08f527af78e4445704d58da3cb%22%2C%22exportedName%22%3A%22getTransactions%22%7D%2C%7B%22id%22%3A%2240bcc06414b025151668a4bfae0eae427485b77128%22%2C%22exportedName%22%3A%22confirmPayment%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/billing/page": "action-browser"
-      }
-    },
-    "40bcc06414b025151668a4bfae0eae427485b77128": {
-      "workers": {
-        "app/(dashboard)/dashboard/billing/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Ccredits.action.ts%22%2C%5B%7B%22id%22%3A%2240176c0fd5e10877fe9bc74c84da99e9be9220da69%22%2C%22exportedName%22%3A%22createPaymentIntent%22%7D%2C%7B%22id%22%3A%22405f612d3c1c64fc08f527af78e4445704d58da3cb%22%2C%22exportedName%22%3A%22getTransactions%22%7D%2C%7B%22id%22%3A%2240bcc06414b025151668a4bfae0eae427485b77128%22%2C%22exportedName%22%3A%22confirmPayment%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/billing/page": "action-browser"
-      }
-    },
-    "7f1ba556da36838539afc603ca2b948413bbeaebd3": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-actions.ts%22%2C%5B%7B%22id%22%3A%227f1ba556da36838539afc603ca2b948413bbeaebd3%22%2C%22exportedName%22%3A%22getUserTeamsAction%22%7D%2C%7B%22id%22%3A%227f403a6babb39ca7604ddd1e49543a21293734cb66%22%2C%22exportedName%22%3A%22createTeamAction%22%7D%2C%7B%22id%22%3A%227f46209b1e10702e76e2c5f30d8f81aab3db47a1a8%22%2C%22exportedName%22%3A%22deleteTeamAction%22%7D%2C%7B%22id%22%3A%227f56e09bedde63b9f50b63bc3e2d31461c4638e592%22%2C%22exportedName%22%3A%22getTeamAction%22%7D%2C%7B%22id%22%3A%227fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a%22%2C%22exportedName%22%3A%22updateTeamAction%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "rsc"
-      }
-    },
-    "7f403a6babb39ca7604ddd1e49543a21293734cb66": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-actions.ts%22%2C%5B%7B%22id%22%3A%227f1ba556da36838539afc603ca2b948413bbeaebd3%22%2C%22exportedName%22%3A%22getUserTeamsAction%22%7D%2C%7B%22id%22%3A%227f403a6babb39ca7604ddd1e49543a21293734cb66%22%2C%22exportedName%22%3A%22createTeamAction%22%7D%2C%7B%22id%22%3A%227f46209b1e10702e76e2c5f30d8f81aab3db47a1a8%22%2C%22exportedName%22%3A%22deleteTeamAction%22%7D%2C%7B%22id%22%3A%227f56e09bedde63b9f50b63bc3e2d31461c4638e592%22%2C%22exportedName%22%3A%22getTeamAction%22%7D%2C%7B%22id%22%3A%227fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a%22%2C%22exportedName%22%3A%22updateTeamAction%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "rsc"
-      }
-    },
-    "7f46209b1e10702e76e2c5f30d8f81aab3db47a1a8": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-actions.ts%22%2C%5B%7B%22id%22%3A%227f1ba556da36838539afc603ca2b948413bbeaebd3%22%2C%22exportedName%22%3A%22getUserTeamsAction%22%7D%2C%7B%22id%22%3A%227f403a6babb39ca7604ddd1e49543a21293734cb66%22%2C%22exportedName%22%3A%22createTeamAction%22%7D%2C%7B%22id%22%3A%227f46209b1e10702e76e2c5f30d8f81aab3db47a1a8%22%2C%22exportedName%22%3A%22deleteTeamAction%22%7D%2C%7B%22id%22%3A%227f56e09bedde63b9f50b63bc3e2d31461c4638e592%22%2C%22exportedName%22%3A%22getTeamAction%22%7D%2C%7B%22id%22%3A%227fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a%22%2C%22exportedName%22%3A%22updateTeamAction%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "rsc"
-      }
-    },
-    "7f56e09bedde63b9f50b63bc3e2d31461c4638e592": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-actions.ts%22%2C%5B%7B%22id%22%3A%227f1ba556da36838539afc603ca2b948413bbeaebd3%22%2C%22exportedName%22%3A%22getUserTeamsAction%22%7D%2C%7B%22id%22%3A%227f403a6babb39ca7604ddd1e49543a21293734cb66%22%2C%22exportedName%22%3A%22createTeamAction%22%7D%2C%7B%22id%22%3A%227f46209b1e10702e76e2c5f30d8f81aab3db47a1a8%22%2C%22exportedName%22%3A%22deleteTeamAction%22%7D%2C%7B%22id%22%3A%227f56e09bedde63b9f50b63bc3e2d31461c4638e592%22%2C%22exportedName%22%3A%22getTeamAction%22%7D%2C%7B%22id%22%3A%227fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a%22%2C%22exportedName%22%3A%22updateTeamAction%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "rsc"
-      }
-    },
-    "7fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(rsc)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-actions.ts%22%2C%5B%7B%22id%22%3A%227f1ba556da36838539afc603ca2b948413bbeaebd3%22%2C%22exportedName%22%3A%22getUserTeamsAction%22%7D%2C%7B%22id%22%3A%227f403a6babb39ca7604ddd1e49543a21293734cb66%22%2C%22exportedName%22%3A%22createTeamAction%22%7D%2C%7B%22id%22%3A%227f46209b1e10702e76e2c5f30d8f81aab3db47a1a8%22%2C%22exportedName%22%3A%22deleteTeamAction%22%7D%2C%7B%22id%22%3A%227f56e09bedde63b9f50b63bc3e2d31461c4638e592%22%2C%22exportedName%22%3A%22getTeamAction%22%7D%2C%7B%22id%22%3A%227fc5e3df1f8e73d9a1ec9c988f99bced28f70cd63a%22%2C%22exportedName%22%3A%22updateTeamAction%22%7D%5D%5D%5D&__client_imported__=!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "rsc"
-      }
-    },
-    "7f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7f1ab3011c7f9785b20d190f610021d5240b19071d": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7f1cab543ecdd965344a3c146b0f26fd9d8a233f8f": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7f6e59c381801a544dac5221b75b57a33e441f7386": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7f7ba4cdf7350b0f008e20c4fe95495742faf62c58": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7fe6e366f032bdf6daaf4e78c23dd252bd36747bd5": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7ff5293b21e6e09f61be62581a73aa045931f5508a": {
-      "workers": {
-        "app/(dashboard)/dashboard/teams/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Cteam-membership-actions.ts%22%2C%5B%7B%22id%22%3A%227f0622550dfea0f62dbf4efc1f5c9d4f6e6d265f54%22%2C%22exportedName%22%3A%22acceptInvitationAction%22%7D%2C%7B%22id%22%3A%227f1ab3011c7f9785b20d190f610021d5240b19071d%22%2C%22exportedName%22%3A%22removeTeamMemberAction%22%7D%2C%7B%22id%22%3A%227f1cab543ecdd965344a3c146b0f26fd9d8a233f8f%22%2C%22exportedName%22%3A%22cancelInvitationAction%22%7D%2C%7B%22id%22%3A%227f6e59c381801a544dac5221b75b57a33e441f7386%22%2C%22exportedName%22%3A%22inviteUserAction%22%7D%2C%7B%22id%22%3A%227f7ba4cdf7350b0f008e20c4fe95495742faf62c58%22%2C%22exportedName%22%3A%22getTeamMembersAction%22%7D%2C%7B%22id%22%3A%227f9a9c3520fd08d75f4fbfd9b3cd33f43308a9042b%22%2C%22exportedName%22%3A%22updateMemberRoleAction%22%7D%2C%7B%22id%22%3A%227fe6e366f032bdf6daaf4e78c23dd252bd36747bd5%22%2C%22exportedName%22%3A%22getPendingInvitationsForCurrentUserAction%22%7D%2C%7B%22id%22%3A%227ff5293b21e6e09f61be62581a73aa045931f5508a%22%2C%22exportedName%22%3A%22getTeamInvitationsAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/teams/page": "action-browser"
-      }
-    },
-    "7fe451a836de0f5eb807af4e1eaaacced5b114c87e": {
-      "workers": {
-        "app/(dashboard)/dashboard/marketplace/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(dashboard)%5C%5Cdashboard%5C%5Cmarketplace%5C%5Cpurchase.action.ts%22%2C%5B%7B%22id%22%3A%227fe451a836de0f5eb807af4e1eaaacced5b114c87e%22%2C%22exportedName%22%3A%22purchaseAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(dashboard)/dashboard/marketplace/page": "action-browser"
-      }
-    },
-    "7f151a90242cf055a2a3b508f2ff25d50ea76e9a37": {
-      "workers": {
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/security/page": "action-browser"
-      }
-    },
-    "7f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05": {
-      "workers": {
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/security/page": "action-browser"
-      }
-    },
-    "7f88fc3379bd0a4543f16edd2711ab041e84f1b4df": {
-      "workers": {
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/security/page": "action-browser"
-      }
-    },
-    "7fbe0cdde24ec654e7640dea71277154364bcacc12": {
-      "workers": {
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/security/page": "action-browser"
-      }
-    },
-    "7ff187066a3137ee629361fa4199c7fc510503273b": {
-      "workers": {
-        "app/(settings)/settings/security/page": {
-          "moduleId": "(action-browser)/./node_modules/.pnpm/next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c/node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(auth)%5C%5Cresend-verification.action.ts%22%2C%5B%7B%22id%22%3A%227f95aa39f02f587e927c2d3884c1134c301d0f7d6c%22%2C%22exportedName%22%3A%22resendVerificationAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Cactions%5C%5Csign-out.action.ts%22%2C%5B%7B%22id%22%3A%227f19add20fbc300a179eb91e272f8c9e4b4decd8e4%22%2C%22exportedName%22%3A%22signOutAction%22%7D%5D%5D%2C%5B%22C%3A%5C%5CUsers%5C%5CAdmin%5C%5CDesktop%5C%5Cnew%5C%5Ccloudflare-workers-nextjs-saas-template%5C%5Csrc%5C%5Capp%5C%5C(settings)%5C%5Csettings%5C%5Csecurity%5C%5Cpasskey-settings.actions.ts%22%2C%5B%7B%22id%22%3A%227f151a90242cf055a2a3b508f2ff25d50ea76e9a37%22%2C%22exportedName%22%3A%22deletePasskeyAction%22%7D%2C%7B%22id%22%3A%227f69ed3cd5ea55bbf64f6cfb512ee6ec0b07b6be05%22%2C%22exportedName%22%3A%22generateRegistrationOptionsAction%22%7D%2C%7B%22id%22%3A%227f88fc3379bd0a4543f16edd2711ab041e84f1b4df%22%2C%22exportedName%22%3A%22generateAuthenticationOptionsAction%22%7D%2C%7B%22id%22%3A%227fbe0cdde24ec654e7640dea71277154364bcacc12%22%2C%22exportedName%22%3A%22verifyAuthenticationAction%22%7D%2C%7B%22id%22%3A%227ff187066a3137ee629361fa4199c7fc510503273b%22%2C%22exportedName%22%3A%22verifyRegistrationAction%22%7D%5D%5D%5D&__client_imported__=true!",
-          "async": false
-        }
-      },
-      "layer": {
-        "app/(settings)/settings/security/page": "action-browser"
+        "app/(dashboard)/dashboard/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "VuqUlFPwrrZrNBQUk85lvGA6hlPXcNbG9nN1krISai4="
+  "encryptionKey": "gcj+dtU2l+R7n3gaBTbpE2aXplMbfKqRtWW8u5KgjWI="
 }

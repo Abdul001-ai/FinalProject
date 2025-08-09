@@ -1,74 +1,60 @@
 {
   "..\\node_modules\\.pnpm\\@heroui+accordion@2.2.19_@h_88d0bf7d30aafa6bed774a7e6ca5fcdb\\node_modules\\@heroui\\accordion\\dist\\chunk-F3X3YELH.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+accordion@2.2.19_@h_88d0bf7d30aafa6bed774a7e6ca5fcdb\\node_modules\\@heroui\\accordion\\dist\\chunk-F3X3YELH.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+calendar@2.2.22_@he_b5745a8d488f66c8ec0e752cdcae12c1\\node_modules\\@heroui\\calendar\\dist\\chunk-XPMFI4TR.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+calendar@2.2.22_@he_b5745a8d488f66c8ec0e752cdcae12c1\\node_modules\\@heroui\\calendar\\dist\\chunk-XPMFI4TR.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+modal@2.2.19_@herou_74b2bae365142bc77bfb82b2011b3380\\node_modules\\@heroui\\modal\\dist\\chunk-UKDXCIYN.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+modal@2.2.19_@herou_74b2bae365142bc77bfb82b2011b3380\\node_modules\\@heroui\\modal\\dist\\chunk-UKDXCIYN.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+navbar@2.2.20_@hero_2c2b988656b091f4c2b334146597722c\\node_modules\\@heroui\\navbar\\dist\\chunk-63OA3RRZ.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+navbar@2.2.20_@hero_2c2b988656b091f4c2b334146597722c\\node_modules\\@heroui\\navbar\\dist\\chunk-63OA3RRZ.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+navbar@2.2.20_@hero_2c2b988656b091f4c2b334146597722c\\node_modules\\@heroui\\navbar\\dist\\chunk-GGZP2VLD.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+navbar@2.2.20_@hero_2c2b988656b091f4c2b334146597722c\\node_modules\\@heroui\\navbar\\dist\\chunk-GGZP2VLD.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+popover@2.3.22_@her_6853d952abb47712010f5c9c8d619e6c\\node_modules\\@heroui\\popover\\dist\\chunk-2PG5BJX6.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+popover@2.3.22_@her_6853d952abb47712010f5c9c8d619e6c\\node_modules\\@heroui\\popover\\dist\\chunk-2PG5BJX6.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+popover@2.3.22_@her_6853d952abb47712010f5c9c8d619e6c\\node_modules\\@heroui\\popover\\dist\\chunk-REV5W46G.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+popover@2.3.22_@her_6853d952abb47712010f5c9c8d619e6c\\node_modules\\@heroui\\popover\\dist\\chunk-REV5W46G.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+ripple@2.2.17_@hero_2a9f6873405f5e0c583b35be87c5ac72\\node_modules\\@heroui\\ripple\\dist\\chunk-QHRCZSEO.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+ripple@2.2.17_@hero_2a9f6873405f5e0c583b35be87c5ac72\\node_modules\\@heroui\\ripple\\dist\\chunk-QHRCZSEO.mjs -> @heroui/dom-animation",
     "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d1.js"
+      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-6cf44e.js"
     ]
   },
   "..\\node_modules\\.pnpm\\@heroui+toast@2.0.12_@herou_2fe884a1d4b35d0f1899594e1532e000\\node_modules\\@heroui\\toast\\dist\\chunk-LZV3PIXS.mjs -> framer-motion": {
     "id": "..\\node_modules\\.pnpm\\@heroui+toast@2.0.12_@herou_2fe884a1d4b35d0f1899594e1532e000\\node_modules\\@heroui\\toast\\dist\\chunk-LZV3PIXS.mjs -> framer-motion",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_framer-motion_11_18_2_react_c2675d6bf21f6a627b08688ab91b-e38286.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+toast@2.0.12_@herou_2fe884a1d4b35d0f1899594e1532e000\\node_modules\\@heroui\\toast\\dist\\chunk-TEJQD255.mjs -> ./src-UW24ZMRV.mjs": {
     "id": "..\\node_modules\\.pnpm\\@heroui+toast@2.0.12_@herou_2fe884a1d4b35d0f1899594e1532e000\\node_modules\\@heroui\\toast\\dist\\chunk-TEJQD255.mjs -> ./src-UW24ZMRV.mjs",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_toast_2_0_12__herou_2fe884a1d4b35d0f1899594e1532e-8cbf55.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\@heroui+tooltip@2.2.19_@her_bd266c1ee63db9b6dddde87eed5163b4\\node_modules\\@heroui\\tooltip\\dist\\chunk-7ZZXWEXF.mjs -> @heroui/dom-animation": {
     "id": "..\\node_modules\\.pnpm\\@heroui+tooltip@2.2.19_@her_bd266c1ee63db9b6dddde87eed5163b4\\node_modules\\@heroui\\tooltip\\dist\\chunk-7ZZXWEXF.mjs -> @heroui/dom-animation",
-    "files": [
-      "static/chunks/_app-pages-browser_node_modules_pnpm_heroui_dom-animation_2_1_9_ef06ed5e9c3eb2620685fcf631f8c-a25f2d0.js"
-    ]
+    "files": []
   },
   "..\\node_modules\\.pnpm\\next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c\\node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts": {
     "id": "..\\node_modules\\.pnpm\\next@15.3.5_@babel+core@7.2_59a685cecc86146db29560d6fd5f016c\\node_modules\\next\\dist\\client\\components\\react-dev-overlay\\utils\\use-websocket.js -> @vercel/turbopack-ecmascript-runtime/browser/dev/hmr-client/hmr-client.ts",
     "files": [
       "static/chunks/_app-pages-browser_node_modules_pnpm_next_15_3_5__babel_core_7_2_59a685cecc86146db29560d6fd5f-262122.js"
+    ]
+  },
+  "app\\(dashboard)\\dashboard\\_components\\voice-call-panel.tsx -> @vapi-ai/web": {
+    "id": "app\\(dashboard)\\dashboard\\_components\\voice-call-panel.tsx -> @vapi-ai/web",
+    "files": [
+      "static/chunks/_app-pages-browser_node_modules_pnpm_vapi-ai_web_2_3_8_node_modules_vapi-ai_web_dist_vapi_js.js"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\Admin\Desktop\new\cloudflare-workers-nextjs-saas-template\src\app\(dashboard)\layout.tsx
+// File: C:\Users\Admin\Desktop\FinalProject\src\app\(dashboard)\layout.tsx
 import * as entry from '../../../../src/app/(dashboard)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

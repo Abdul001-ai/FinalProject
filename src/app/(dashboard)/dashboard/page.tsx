@@ -1,5 +1,8 @@
-import { MoreHorizontal } from "lucide-react"
-import { Button } from "@/components/ui/button"
+// Inline icons to avoid external icon deps
+// Replaced shadcn Button with native buttons here to avoid variant type issues
+import VoiceCallPanel from "./_components/voice-call-panel"
+import { VapiWidget } from "@/components/vapi-widget"
+import { TalkWithMeButton } from "./_components/talk-with-me-button"
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -30,16 +33,24 @@ const StatCard = ({ title, value, change, changeType, description, trend }: Stat
   </div>
 )
 
+const MoreIcon = () => (
+  <svg className="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+    <circle cx="5" cy="12" r="1" />
+    <circle cx="12" cy="12" r="1" />
+    <circle cx="19" cy="12" r="1" />
+  </svg>
+)
+
 const RecentSales = () => (
   <div className="rounded-xl border bg-white p-6 shadow-sm dark:bg-gray-900">
     <div className="mb-6 flex items-center justify-between">
       <h3 className="text-lg font-semibold">Recent Sales</h3>
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button variant="ghost" size="icon" className="h-8 w-8">
-            <MoreHorizontal className="h-4 w-4" />
+          <button className="h-8 w-8 inline-flex items-center justify-center rounded-md hover:bg-muted">
+            <MoreIcon />
             <span className="sr-only">More</span>
-          </Button>
+          </button>
         </DropdownMenuTrigger>
         <DropdownMenuContent align="end">
           <DropdownMenuItem>View All</DropdownMenuItem>
@@ -136,12 +147,14 @@ const DonutChartPlaceholder = () => (
 )
 
 export default function Page() {
+  const enableCustomPanel = (process.env.NEXT_PUBLIC_ENABLE_CUSTOM_VOICE_PANEL ?? "true").toLowerCase() !== "false"
   return (
     <div className="flex-1 space-y-6 p-6">
       <div className="flex items-center justify-between">
         <h2 className="text-3xl font-bold tracking-tight">Hi, Welcome back 👋</h2>
         <div className="flex items-center space-x-2">
-          <Button variant="outline">
+          <TalkWithMeButton />
+          <button className="inline-flex items-center rounded-md border px-3 py-2 text-sm hover:bg-muted">
             <span>Last 30 days</span>
             <svg
               className="ml-2 h-4 w-4"
@@ -157,10 +170,16 @@ export default function Page() {
             >
               <path d="m6 9 6 6 6-6" />
             </svg>
-          </Button>
-          <Button>Download</Button>
+          </button>
+          <button className="rounded-md bg-primary px-3 py-2 text-sm text-primary-foreground hover:opacity-90">Download</button>
         </div>
       </div>
+      
+      {/* Voice Assistant Panel (custom, REST). Toggle via NEXT_PUBLIC_ENABLE_CUSTOM_VOICE_PANEL=false to hide. */}
+      {enableCustomPanel ? <VoiceCallPanel /> : null}
+
+      {/* Vapi Widget (direct embed alternative) */}
+      <VapiWidget />
       
       <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
         <StatCard
